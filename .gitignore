@@ -1,0 +1,10 @@
+.env
+.env.example
+pyvenv.cfg
+share
+Scripts
+Lib
+Include
+file_obsoleti
+etc
+.idea/

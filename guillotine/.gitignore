@@ -1,0 +1,36 @@
+# --- Ambiente ---------------------------------------------------------------
+.venv/
+__pycache__/
+*.pyc
+.env
+
+# --- source/: dati grezzi esclusi, solo l'input resta pubblico --------------
+source/*.xlsx
+!source/guillotine.xlsx
+source/*.csv
+source/*.log
+source/*.txt
+source/raw_logs/
+
+# --- python/: cache e log di runtime -----------------------------------------
+python/*.log
+python/__pycache__/
+
+# --- Jupyter ------------------------------------------------------------------
+.ipynb_checkpoints/
+
+# --- documentation/: da rivedere quando il saggio finale sara' pronto --------
+# per ora nella cartella restano molti file di lavoro (bozze, note di sessione,
+# export dei notebook, csv/txt di appoggio) che non sono pensati per la repo
+# pubblica - qui va aggiunta un'esclusione mirata una volta deciso quali file
+# (oltre al saggio finale) restano dentro.
+.env
+.env.example
+pyvenv.cfg
+share
+Scripts
+Lib
+Include
+file_obsoleti
+etc
+.idea/
